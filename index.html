@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SHIKI Avatar Tools</title>
+  <meta name="description"
+        content="Unity向けアバター制作ツール SHIKI Avatar Toolsの配布ページです。">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #f5f7fb;
+      color: #243047;
+      font-family: system-ui, sans-serif;
+      line-height: 1.8;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 64px auto;
+      padding: 0 24px;
+    }
+
+    h1 { margin-bottom: 8px; }
+    h2 { margin-top: 0; }
+
+    .card {
+      margin-top: 24px;
+      padding: 28px;
+      border: 1px solid #dce3ef;
+      border-radius: 16px;
+      background: white;
+    }
+
+    a { color: #245bcc; }
+
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      background: #245bcc;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .button:hover { background: #1948a8; }
+
+    a:focus-visible {
+      outline: 3px solid #eea900;
+      outline-offset: 4px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #bcc8dc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .note, footer {
+      color: #58657b;
+      font-size: 14px;
+    }
+
+    footer { margin-top: 32px; }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>SHIKI Avatar Tools</h1>
+      <p>Unityでのアバター制作・変換をサポートするツールを配布しています。</p>
+    </header>
+
+    <section class="card" aria-labelledby="install-title">
+      <h2 id="install-title">VCCに追加</h2>
+
+      <p>
+        VRChat Creator CompanionをインストールしたPCで、
+        次のボタンを押してください。
+      </p>
+
+      <a class="button"
+         href="vcc://vpm/addRepo?url=https%3A%2F%2Fshikielectronics.github.io%2Fvpm-repository%2Fvpm.json">
+        SHIKI Avatar ToolsをVCCに追加
+      </a>
+
+      <ol>
+        <li>ブラウザでVCCを開くことを許可します。</li>
+        <li>VCCでリポジトリの追加を確認します。</li>
+        <li>対象プロジェクトのManage Projectからツールを追加します。</li>
+      </ol>
+
+      <p class="note">
+        β版を利用する場合は、VCCのSettings → Packagesで
+        Show Pre-Release Packagesを有効にしてください。
+      </p>
+
+      <details>
+        <summary>ボタンで追加できない場合</summary>
+        <p>
+          VCCのSettings → Packages → Add Repositoryに、
+          以下のURLを入力してください。
+        </p>
+
+        <label for="repository-url">リポジトリURL</label>
+        <input id="repository-url"
+               type="text"
+               readonly
+               value="https://shikielectronics.github.io/vpm-repository/vpm.json">
+      </details>
+    </section>
+
+    <section class="card" aria-labelledby="transmute-title">
+      <h2 id="transmute-title">Avatar Transmute</h2>
+
+      <p>
+        アバターの診断・軽量化・VRM 0.x／1.0変換を行う
+        Unity Editor拡張です。
+      </p>
+
+      <ul>
+        <li>メッシュ削減や隠れ面削除による軽量化</li>
+        <li>表情・揺れ物・コライダーの変換</li>
+        <li>lilToonからMToonへのマテリアル変換</li>
+        <li>他のEditor拡張から利用できる公開API</li>
+      </ul>
+
+      <p class="note">
+        β版です。導入前にプロジェクトをバックアップし、
+        変換結果を確認してください。
+      </p>
+
+      <p>
+        <a href="https://github.com/shikielectronics/AvatarTransmute">
+          ソースコード・APIリファレンス
+        </a>
+        ／
+        <a href="https://github.com/shikielectronics/AvatarTransmute/releases">
+          ダウンロード・リリース一覧
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      <p>SHIKI Avatar Tools — zukki</p>
+    </footer>
+  </main>
+</body>
+</html>

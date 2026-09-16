@@ -1,0 +1,28 @@
+{
+  "name": "SHIKI Avatar Tools",
+  "id": "com.zukki.shiki-avatar-tools",
+  "author": "zukki",
+  "url": "https://shikielectronics.github.io/vpm-repository/vpm.json",
+  "packages": {
+    "com.zukki.avatartransmute": {
+      "versions": {
+        "1.0.0-beta": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta/AvatarTransmute_1.0.0_beta_package.zip"
+        }
+      }
+    }
+  }
+}
