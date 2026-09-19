@@ -54,6 +54,22 @@
           },
           "license": "MIT",
           "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.2/AvatarTransmute_1.0.0_beta.2_package.zip"
+        },
+        "1.0.0-beta.3": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.3",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.3/AvatarTransmute_1.0.0_beta.3_package.zip"
         }
       }
     }
