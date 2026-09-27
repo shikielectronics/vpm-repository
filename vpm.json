@@ -1,0 +1,205 @@
+{
+  "name": "SHIKI Avatar Tools",
+  "id": "com.zukki.shiki-avatar-tools",
+  "author": "zukki",
+  "url": "https://shikielectronics.github.io/vpm-repository/vpm.json",
+  "packages": {
+    "com.zukki.avatartransmute": {
+      "versions": {
+        "1.0.0-beta": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta/AvatarTransmute_1.0.0_beta_package.zip"
+        },
+        "1.0.0-beta.1": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.1",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.1/AvatarTransmute_1.0.0_beta.1_package.zip",
+          "zipSHA256": "46186e019d8455e51401d28a3f21b6231992b1c89e82d4f45799c46f1885c7c0"
+        },
+        "1.0.0-beta.2": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.2",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.2/AvatarTransmute_1.0.0_beta.2_package.zip"
+        },
+        "1.0.0-beta.3": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.3",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.3/AvatarTransmute_1.0.0_beta.3_package.zip"
+        },
+        "1.0.0-beta.4": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.4",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.4/AvatarTransmute_1.0.0_beta.4_package.zip"
+        },
+        "1.0.0-beta.8": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.8",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.8/AvatarTransmute_1.0.0_beta.8_package.zip"
+        },
+        "1.0.0-beta.11": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.11",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.11/AvatarTransmute_1.0.0_beta.11_package.zip"
+        },
+        "1.0.0-beta.12": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.12",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.12/AvatarTransmute_1.0.0_beta.12_package.zip"
+        },
+        "1.0.0-beta.13": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.13",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.13/AvatarTransmute_1.0.0_beta.13_package.zip"
+        },
+        "1.0.0-beta.14": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.14",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.14/AvatarTransmute_1.0.0_beta.14_package.zip"
+        },
+        "1.0.0-beta.16": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.16",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.16/AvatarTransmute_1.0.0_beta.16_package.zip"
+        },
+        "1.0.0-beta.22": {
+          "name": "com.zukki.avatartransmute",
+          "version": "1.0.0-beta.22",
+          "displayName": "Avatar Transmute",
+          "description": "Avatar analysis, copy-based optimization, VRM 1.0 / VRM 0.x export, and cluster-aware Avatar Transmute Editor APIs.",
+          "unity": "2022.3",
+          "author": {
+            "name": "zukki",
+            "email": "shiki.electronics.zukki@gmail.com"
+          },
+          "dependencies": {
+            "com.unity.nuget.newtonsoft-json": "3.2.1"
+          },
+          "license": "MIT",
+          "url": "https://github.com/shikielectronics/AvatarTransmute/releases/download/v1.0.0-beta.22/AvatarTransmute_1.0.0_beta.22_package.zip"
+        }
+      }
+    }
+  }
+}

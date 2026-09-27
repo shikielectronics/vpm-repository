@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#212121"><meta name="description" content="SHIKI™ Avatar Tools の VCC パッケージリポジトリ。">
+  <title>VCC インストール — SHIKI™</title><link rel="icon" href="./assets/svg/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&family=Noto+Sans+TC:wght@400;600;700&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css"><link rel="stylesheet" href="./assets/css/vpm.css">
+  <script src="./assets/js/extra.js" defer></script><script src="./assets/js/script.js" defer></script>
+</head>
+<body data-page="vpm">
+  <a class="skip-link" href="#main"><span data-i18n="skip">本文へ移動</span></a><div class="cursor-glow" aria-hidden="true"></div>
+  <button id="sidebar-toggle" style="display:none" type="button" aria-hidden="true"></button>
+  <header class="vpm-topbar">
+    <a class="vpm-brand" href="./" aria-label="SHIKI™"><img src="./assets/svg/shiki-logo.svg" alt="SHIKI Electronics"></a>
+    <span class="vpm-path">SHIKI™ <span>/</span> VCC INSTALL</span>
+    <div class="vpm-settings-wrap">
+      <div class="settings-panel" id="settings-panel" hidden role="group" aria-label="Settings">
+        <div class="settings-heading"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="./assets/svg/icons.svg#settings"/></svg><strong data-i18n="settings">設定</strong></div>
+        <div class="lang-select-wrap"><label for="language-select"><span data-i18n="language">言語</span></label><select id="language-select" aria-label="Language"><option value="ja">JP</option><option value="ko">KR</option><option value="zh-CN">CN</option><option value="zh-TW">CN-TW</option><option value="en">EN</option></select></div>
+        <div class="theme-row"><span data-i18n="appearance">表示</span><button class="scene-toggle" id="theme-toggle" type="button" aria-label="ライトテーマに切り替える" aria-pressed="true"><img class="scene-day" src="./assets/svg/toggle-day.svg" alt=""><img class="scene-night" src="./assets/svg/toggle-night.svg" alt=""></button></div>
+      </div>
+      <button type="button" class="settings-button" id="settings-button" aria-controls="settings-panel" aria-expanded="false" aria-label="設定を開く"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="./assets/svg/icons.svg#settings"/></svg><span data-i18n="settings">設定</span></button>
+    </div>
+  </header>
+  <main class="vpm-main" id="main">
+    <div class="vpm-heading" data-reveal><div class="eyebrow"><span class="eyebrow-line"></span> SHIKI™ <span class="edition">VPM REPOSITORY</span></div><p class="kicker">UNITY / AVATAR TOOLS</p><h1 data-i18n="nav_install">VCC インストール</h1><p class="lead" data-i18n="vpm_intro">Unity 向けアバター制作ツールを VCC から導入できます。</p></div>
+    <div class="vpm-grid">
+      <section class="card vpm-install" aria-labelledby="install-title" data-reveal>
+        <span class="doc-label">ONE CLICK INSTALL</span><h2 id="install-title" data-i18n="install_one">SHIKI のリポジトリを VCC に追加</h2>
+        <p data-i18n="install_one_body">VCC がインストールされた PC で以下のボタンを押してください。ブラウザと VCC の確認画面で追加を許可します。</p>
+        <a class="btn btn-primary" href="vcc://vpm/addRepo?url=https%3A%2F%2Fshikielectronics.github.io%2Fvpm-repository%2Fvpm.json"><span data-i18n="install_button">VCC にリポジトリを追加</span><svg aria-hidden="true" viewBox="0 0 24 24"><use href="./assets/svg/icons.svg#external"/></svg></a>
+        <ol class="vpm-steps"><li data-i18n="vpm_step1">ブラウザで VCC を開くことを許可します。</li><li data-i18n="vpm_step2">VCC でリポジトリの追加を確認します。</li><li data-i18n="vpm_step3">対象プロジェクトの Manage Project からツールを追加します。</li></ol>
+        <div class="beta-note"><span>BETA</span><p data-i18n="install_beta">β版が見えない場合は Settings → Packages → Show Pre-Release Packages を有効にしてください。</p></div>
+        <details class="vpm-manual"><summary><span data-i18n="install_manual">ボタンで開けない場合</span><svg aria-hidden="true" viewBox="0 0 24 24"><use href="./assets/svg/icons.svg#down"/></svg></summary><p data-i18n="install_manual_body">VCC の Settings → Packages → Add Repository に次の URL を入力してください。</p><div class="copy-row"><code id="repo-url">https://shikielectronics.github.io/vpm-repository/vpm.json</code><button id="copy-url" type="button" data-i18n="copy">コピー</button></div><p id="copy-feedback" class="copy-feedback" role="status" aria-live="polite"></p></details>
+      </section>
+      <section class="card vpm-product" aria-labelledby="transmute-title" data-reveal>
+        <div class="panel-top"><span>PRODUCT 01</span><span class="beta-pill">BETA</span></div><div class="product-glyph" aria-hidden="true"><span>A</span><span>T</span></div><h2 id="transmute-title">Avatar Transmute</h2><p data-i18n="product_desc">アバターの診断・軽量化・VRM 0.x / 1.0 変換を行う Unity Editor 拡張。</p>
+        <ul class="check-list"><li data-i18n="docs_f1">表情、揺れ物、コライダー</li><li data-i18n="docs_f2">lilToon から MToon へのマテリアル変換</li><li data-i18n="docs_f3">不要メッシュや隠れ面の整理</li><li data-i18n="docs_f4">他の Editor 拡張から呼び出す公開 API</li></ul>
+        <p class="vpm-caution" data-i18n="docs_check_body">β版では変換前にプロジェクトをバックアップし、出力後に衣装の追従、表情、透明部分、揺れ物とコライダーを実機で確認してください。</p>
+        <div class="vpm-links"><a href="https://github.com/shikielectronics/AvatarTransmute" data-i18n="vpm_source">ソースコード・API リファレンス</a><a href="https://github.com/shikielectronics/AvatarTransmute/releases" data-i18n="vpm_releases">ダウンロード・リリース一覧</a></div>
+      </section>
+    </div>
+  </main>
+  <footer class="vpm-footer"><span>SHIKI™</span><span>© 2026 zukki</span><a href="#main"><span data-i18n="back_top">ページの先頭へ</span> ↑</a></footer>
+</body>
+</html>
